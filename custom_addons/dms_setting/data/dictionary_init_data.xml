@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!--车主类别-->
+    <data noupdate="0">
+        <!--车主-->
+        <record model="dms.dict.customer.type" id="dms_dict_customer_type_0">
+            <field name="name">Car owner</field>
+            <field name="code">DCT1010</field>
+            <field name="sequence">0</field>
+            <field name="active" eval="True"/>
+        </record>
+        <!--业务往来客户-->
+        <record model="dms.dict.customer.type" id="dms_dict_customer_type_1">
+            <field name="name">Business associate</field>
+            <field name="code">DCT1011</field>
+            <field name="sequence">1</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+    <!--折扣类型-->
+    <data noupdate="0">
+        <!--保险降点-->
+        <record model="dms.dict.discount.type" id="dms_dict_discount_type_1">
+            <field name="name">Insurance Drop Points</field>
+            <field name="code">DDT1001</field>
+            <field name="sequence">1</field>
+            <field name="active" eval="True"/>
+        </record>
+        <!--服务活动-->
+        <record model="dms.dict.discount.type" id="dms_dict_discount_type_2">
+            <field name="name">Service Activity</field>
+            <field name="code">DDT1002</field>
+            <field name="sequence">2</field>
+            <field name="active" eval="True"/>
+        </record>
+        <!--投诉处理客户满意度-->
+        <record model="dms.dict.discount.type" id="dms_dict_discount_type_3">
+            <field name="name">Complaint handling - Customer satisfaction</field>
+            <field name="code">DDT1003</field>
+            <field name="sequence">3</field>
+            <field name="active" eval="True"/>
+        </record>
+        <!--其他-->
+        <record model="dms.dict.discount.type" id="dms_dict_discount_type_4">
+            <field name="name">Other</field>
+            <field name="code">DDT1004</field>
+            <field name="sequence">4</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+    <!--折扣部门-->
+    <data noupdate="0">
+        <record model="dms.dict.discount.department" id="dms_dict_discount_department_1">
+            <field name="name">Sale</field>
+            <field name="code">DDD1001</field>
+            <field name="sequence">1</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record model="dms.dict.discount.department" id="dms_dict_discount_department_2">
+            <field name="name">After-sale</field>
+            <field name="code">DDD1002</field>
+            <field name="sequence">2</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record model="dms.dict.discount.department" id="dms_dict_discount_department_3">
+            <field name="name">Other</field>
+            <field name="code">DDD1003</field>
+            <field name="sequence">3</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+    <!--工单类型-->
+    <data noupdate="0">
+        <!--维修-->
+        <record model="dms.dict.order.type" id="dms_dict_order_type_0">
+            <field name="name">Maintain</field>
+            <field name="code">OT1010</field>
+            <field name="sequence">0</field>
+            <field name="active" eval="True"/>
+        </record>
+        <!--预约单-->
+        <record model="dms.dict.order.type" id="dms_dict_order_type_1">
+            <field name="name">Reservation</field>
+            <field name="code">OT1011</field>
+            <field name="sequence">1</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+    <!--赔付保险公司-->
+    <data noupdate="0">
+        <record model="dms.dict.compensate.insurance" id="dms_dict_compensate_insurance_0">
+            <field name="name">PICC</field>
+            <field name="code">IS1010</field>
+            <field name="sequence">0</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record model="dms.dict.compensate.insurance" id="dms_dict_compensate_insurance_1">
+            <field name="name">PAIC</field>
+            <field name="code">IS1011</field>
+            <field name="sequence">1</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record model="dms.dict.compensate.insurance" id="dms_dict_compensate_insurance_2">
+            <field name="name">CPIC</field>
+            <field name="code">IS1012</field>
+            <field name="sequence">2</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+    <!--单位-->
+    <data noupdate="0">
+        <record model="dms.dict.unit" id="dms_dict_unit_1">
+            <field name="name">Meter</field>
+            <field name="sequence">1</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.unit" id="dms_dict_unit_3">
+            <field name="name">Pint</field>
+            <field name="sequence">2</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.unit" id="dms_dict_unit_4">
+            <field name="name">Pound</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.unit" id="dms_dict_unit_5">
+            <field name="name">Package</field>
+            <field name="sequence">4</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.unit" id="dms_dict_unit_6">
+            <field name="name">Bucket</field>
+            <field name="sequence">5</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.unit" id="dms_dict_unit_7">
+            <field name="name">Liter</field>
+            <field name="sequence">6</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.unit" id="dms_dict_unit_8">
+            <field name="name">Gallon</field>
+            <field name="sequence">7</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+    <!--税率-->
+    <data noupdate="0">
+        <record model="dms.dict.tax.rate" id="dms_dict_att_1">
+            <field name="name">13%</field>
+            <field name="sequence">1</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.tax.rate" id="dms_dict_att_2">
+            <field name="name">6%</field>
+            <field name="sequence">2</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+    <!--工种-->
+    <data noupdate="0">
+        <record model="dms.dict.work.type" id="dms_dict_awt_1">
+            <field name="name">Electromechanical</field>
+            <field name="sequence">1</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.work.type" id="dms_dict_awt_2">
+            <field name="name">Metal Plate</field>
+            <field name="sequence">2</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.work.type" id="dms_dict_awt_3">
+            <field name="name">Organic Coating</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+    <!--工时单价-->
+    <data noupdate="0">
+        <record model="dms.dict.work.hours.price" id="dms_dict_whp_1">
+            <field name="name">100</field>
+            <field name="value">100</field>
+            <field name="sequence">1</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.work.hours.price" id="dms_dict_whp_2">
+            <field name="name">200</field>
+            <field name="value">200</field>
+            <field name="sequence">2</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.work.hours.price" id="dms_dict_whp_3">
+            <field name="name">300</field>
+            <field name="value">300</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+    <!--调整价四舍五入精度-->
+    <data noupdate="0">
+        <record model="dms.dict.precision" id="dms_dict_ap_1">
+            <field name="name">Original Value</field>
+            <field name="sequence">1</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.precision" id="dms_dict_ap_2">
+            <field name="name">Yuan</field>
+            <field name="sequence">2</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.precision" id="dms_dict_ap_3">
+            <field name="name">Cent</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+    <!--收款类别-->
+    <data noupdate="0">
+        <record model="dms.dict.charge.category" id="dms_dict_cc_1">
+            <field name="name">Customer</field>
+            <field name="sequence">1</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.charge.category" id="dms_dict_cc_2">
+            <field name="name">Insurance</field>
+            <field name="sequence">2</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.charge.category" id="dms_dict_cc_3">
+            <field name="name">Other</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+    <!--结算币种-->
+    <data noupdate="0">
+        <record model="dms.dict.currency" id="dms_dict_currency_1">
+            <field name="name">RMB</field>
+            <field name="sequence">1</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.currency" id="dms_dict_currency_2">
+            <field name="name">Dollar</field>
+            <field name="sequence">2</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.currency" id="dms_dict_currency_3">
+            <field name="name">Pound</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+    <!--收款方式-->
+    <data noupdate="0">
+        <record model="dms.dict.collection.method" id="dms_dict_cm_1">
+            <!--现金-->
+            <field name="name">Cash</field>
+            <field name="sequence">1</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.collection.method" id="dms_dict_cm_2">
+            <!--信用卡-->
+            <field name="name">Credit Card</field>
+            <field name="sequence">2</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.collection.method" id="dms_dict_cm_3">
+            <!--支票-->
+            <field name="name">Check</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.collection.method" id="dms_dict_cm_4">
+            <!--微信-->
+            <field name="name">WeChat</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.collection.method" id="dms_dict_cm_5">
+            <!--支付宝-->
+            <field name="name">Alipay</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.collection.method" id="dms_dict_cm_6">
+            <!--挂账-->
+            <field name="name">Account</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.collection.method" id="dms_dict_cm_7">
+            <!--储蓄卡-->
+            <field name="name">Deposit Card</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.collection.method" id="dms_dict_cm_8">
+            <!--转账-->
+            <field name="name">Transfer Accounts</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.collection.method" id="dms_dict_cm_9">
+            <!--其他-->
+            <field name="name">Other</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.collection.method" id="dms_dict_cm_10">
+            <!--售后预收款-->
+            <field name="name">Advance Payment After Sale</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+    <!--发票类型-->
+    <data noupdate="0">
+        <record model="dms.dict.invoice.type" id="dms_dict_it_1">
+            <!--机动车发票-->
+            <field name="name">Motor Vehicle Invoice</field>
+            <field name="sequence">1</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.invoice.type" id="dms_dict_it_2">
+            <!--增值税发票-->
+            <field name="name">Value Added Tax Invoice</field>
+            <field name="sequence">2</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.invoice.type" id="dms_dict_it_3">
+            <!--普通发票-->
+            <field name="name">Plain Invoice</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.invoice.type" id="dms_dict_it_4">
+            <!--服务发票-->
+            <field name="name">Service Invoice</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.invoice.type" id="dms_dict_it_5">
+            <!--收据-->
+            <field name="name">Receipt</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.invoice.type" id="dms_dict_it_6">
+            <!--餐饮类-->
+            <field name="name">Catering Invoice</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+        <record model="dms.dict.invoice.type" id="dms_dict_it_7">
+            <!--会晤类-->
+            <field name="name">Meeting Invoice</field>
+            <field name="sequence">3</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+    <!--仓库种类-->
+    <data noupdate="0">
+        <record model="dms.warehouse.kind" id="dms_parts_dict_wk_1">
+            <field name="name">集采仓库</field>
+            <field name="sequence">1</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record model="dms.warehouse.kind" id="dms_parts_dict_wk_2">
+            <field name="name">自采仓库</field>
+            <field name="sequence">2</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record model="dms.warehouse.kind" id="dms_parts_dict_wk_3">
+            <field name="name">旧件库</field>
+            <field name="sequence">3</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record model="dms.warehouse.kind" id="dms_parts_dict_wk_4">
+            <field name="name">整车仓库</field>
+            <field name="sequence">4</field>
+            <field name="active" eval="True"/>
+        </record>
+        <record model="dms.warehouse.kind" id="dms_parts_dict_wk_5">
+            <field name="name">原厂库</field>
+            <field name="sequence">5</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+    <!--仓库-->
+    <data noupdate="0">
+        <record model="dms.warehouse.main" id="dms_parts_demo_dwm_1">
+            <field name="warehouse" eval="ref('dms_parts_dict_wk_1')"/>
+            <field name="name">Warehouse_1</field>
+            <field name="warehouse_code">WH001</field>
+            <field name="warehouse_location">WC</field>
+        </record>
+        <record model="dms.warehouse.main" id="dms_parts_demo_dwm_2">
+            <field name="warehouse" eval="ref('dms_parts_dict_wk_2')"/>
+            <field name="name">Warehouse_2</field>
+            <field name="warehouse_code">WH002</field>
+            <field name="warehouse_location">HK</field>
+        </record>
+        <record model="dms.warehouse.main" id="dms_parts_demo_dwm_3">
+            <field name="warehouse" eval="ref('dms_parts_dict_wk_3')"/>
+            <field name="name">Warehouse_3</field>
+            <field name="warehouse_code">WH003</field>
+            <field name="warehouse_location">HY</field>
+        </record>
+<!--        整车仓库-->
+        <record model="dms.warehouse.main" id="dms_parts_demo_dwm_4">
+            <field name="warehouse" eval="ref('dms_parts_dict_wk_4')"/>
+            <field name="name">Warehouse_4</field>
+            <field name="warehouse_code">WH004</field>
+            <field name="warehouse_location">HY</field>
+        </record>
+    </data>
+    <!--金融机构-->
+    <data noupdate="1">
+        <record model="dms.dict.financial.institution" id="dms_finacial_institution_1">
+            <field name="name">Construction Bank</field>
+            <field name="abbreviation">CB</field>
+            <field name="institution_category">2</field>
+            <field name="loan_way">2</field>
+            <field name="codename">110</field>
+            <field name="is_active" eval="True"/>
+        </record>
+    </data>
+</odoo>

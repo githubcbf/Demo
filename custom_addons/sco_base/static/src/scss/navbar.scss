@@ -1,0 +1,42 @@
+$navbar-text-color: black;
+$navbar-border: 1px solid #F6F6F6;
+$sco-sidebar-width: 210px;
+.o_main_navbar {
+  background-color: #FFFFFF;
+  color: $navbar-text-color;
+  border-bottom: $navbar-border;
+}
+
+.o_main_navbar > ul > li > a, .o_main_navbar > ul > li > label {
+  color: $navbar-text-color;
+}
+.o_main_navbar .show .dropdown-toggle,
+.o_main_navbar > a:hover,
+.o_main_navbar > ul > li > a:hover,
+.o_main_navbar > ul > li > label:hover{
+    color: white !important;
+}
+
+.sco_navbar_logo_container {
+  width: $sco-sidebar-width;
+  display: inline-block;
+  float: left;
+  border-right: $navbar-border;
+  text-align: center;
+  height: 46px;
+  line-height: 46px;
+
+  span {
+    vertical-align: middle;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+}
+
+.sco_navbar_logo_container .logo {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url("/sco_base/static/images/logo.png");
+  background-size: 40px 40px;
+}

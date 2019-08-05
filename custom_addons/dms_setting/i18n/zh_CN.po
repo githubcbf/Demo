@@ -1,0 +1,600 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* dms_setting
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-23 06:19+0000\n"
+"PO-Revision-Date: 2019-07-23 06:19+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dms_setting
+#: model:dms.dict.work.hours.price,name:dms_setting.dms_dict_whp_1
+msgid "100"
+msgstr ""
+
+#. module: dms_setting
+#: model:dms.dict.tax.rate,name:dms_setting.dms_dict_att_1
+msgid "13%"
+msgstr ""
+
+#. module: dms_setting
+#: model:dms.dict.work.hours.price,name:dms_setting.dms_dict_whp_2
+msgid "200"
+msgstr ""
+
+#. module: dms_setting
+#: model:dms.dict.work.hours.price,name:dms_setting.dms_dict_whp_3
+msgid "300"
+msgstr ""
+
+#. module: dms_setting
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_6
+msgid "Account"
+msgstr "挂账"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category__is_active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency__is_active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type__active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department__active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type__active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision__is_active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate__is_active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit__is_active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__is_active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type__is_active
+msgid "Active"
+msgstr "有效"
+
+#. module: dms_setting
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_10
+msgid "Advance Payment After Sale"
+msgstr "售后预收款"
+
+#. module: dms_setting
+#: model:dms.dict.discount.department,name:dms_setting.dms_dict_discount_department_2
+msgid "After-sale"
+msgstr "售后"
+
+#. module: dms_setting
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_5
+msgid "Alipay"
+msgstr "支付宝"
+
+#. module: dms_setting
+#: model:dms.dict.unit,name:dms_setting.dms_dict_unit_6
+msgid "Bucket"
+msgstr "桶"
+
+#. module: dms_setting
+#: model:dms.dict.customer.type,name:dms_setting.dms_dict_customer_type_1
+msgid "Business associate"
+msgstr "业务往来客户"
+
+#. module: dms_setting
+#: model:dms.dict.compensate.insurance,name:dms_setting.dms_dict_compensate_insurance_2
+msgid "CPIC"
+msgstr "太平洋"
+
+#. module: dms_setting
+#: model:dms.dict.customer.type,name:dms_setting.dms_dict_customer_type_0
+msgid "Car owner"
+msgstr "车主"
+
+#. module: dms_setting
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_1
+msgid "Cash"
+msgstr "现金"
+
+#. module: dms_setting
+#: model:dms.dict.invoice.type,name:dms_setting.dms_dict_it_6
+msgid "Catering Invoice"
+msgstr "餐饮类"
+
+#. module: dms_setting
+#: model:dms.dict.precision,name:dms_setting.dms_dict_ap_3
+msgid "Cent"
+msgstr "分"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_charge_category
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category__name
+msgid "Charge Category"
+msgstr "收款类别"
+
+#. module: dms_setting
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_3
+msgid "Check"
+msgstr "支票"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__code
+msgid "Code"
+msgstr "代码"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_collection_method
+msgid "Collection Method"
+msgstr "收款方式"
+
+#. module: dms_setting
+#: model_terms:ir.ui.view,arch_db:dms_setting.res_dms_config_settings_view_form
+msgid "Common"
+msgstr "公共配置"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_res_config_settings__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_compensate_insurance
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__name
+msgid "Compensate Insurance"
+msgstr "保险赔付"
+
+#. module: dms_setting
+#: model:dms.dict.discount.type,name:dms_setting.dms_dict_discount_type_3
+msgid "Complaint handling - Customer satisfaction"
+msgstr "投诉处理客户满意度"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: dms_setting
+#: model:ir.ui.menu,name:dms_setting.dms_menu_config
+msgid "Configuration"
+msgstr "基础配置"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__create_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__create_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: dms_setting
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_2
+msgid "Credit Card"
+msgstr "信用卡"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_currency
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency__name
+msgid "Currency"
+msgstr "币种"
+
+#. module: dms_setting
+#: model:dms.dict.charge.category,name:dms_setting.dms_dict_cc_1
+msgid "Customer"
+msgstr "客户"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_customer_type
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type__name
+msgid "Customer Type"
+msgstr "客户类别"
+
+#. module: dms_setting
+#: model:ir.actions.act_window,name:dms_setting.action_dms_config_settings
+msgid "DMS Configuration"
+msgstr "DMS 配置"
+
+#. module: dms_setting
+#: model_terms:ir.ui.view,arch_db:dms_setting.res_dms_config_settings_view_form
+msgid "DMS Setting"
+msgstr "DMS 设置"
+
+#. module: dms_setting
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_7
+msgid "Deposit Card"
+msgstr "储蓄卡"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_discount_department
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department__name
+msgid "Discount Department"
+msgstr "折扣部门"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_discount_type
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type__name
+msgid "Discount Type"
+msgstr "折扣类别"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__display_name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: dms_setting
+#: model:dms.dict.currency,name:dms_setting.dms_dict_currency_2
+msgid "Dollar"
+msgstr "美元"
+
+#. module: dms_setting
+#: model:dms.dict.work.type,name:dms_setting.dms_dict_awt_1
+msgid "Electromechanical"
+msgstr "电工"
+
+#. module: dms_setting
+#: model:dms.dict.unit,name:dms_setting.dms_dict_unit_8
+msgid "Gallon"
+msgstr "加仑"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__id
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type__id
+msgid "ID"
+msgstr ""
+
+#. module: dms_setting
+#: code:addons/dms_setting/models/dictionary.py:48
+#: model:dms.dict.charge.category,name:dms_setting.dms_dict_cc_2
+#, python-format
+msgid "Insurance"
+msgstr "保险"
+
+#. module: dms_setting
+#: code:addons/dms_setting/models/dictionary.py:49
+#: sql_constraint:dms.dict.compensate.insurance:0
+#, python-format
+msgid "Insurance Code Cannot Be Added Repeatedly"
+msgstr "保险类型不能重复添加"
+
+#. module: dms_setting
+#: model:dms.dict.discount.type,name:dms_setting.dms_dict_discount_type_1
+msgid "Insurance Drop Points"
+msgstr "保险降点"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_invoice_type
+msgid "Invoice Type"
+msgstr "发票类型"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method__is_active
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type__is_active
+msgid "Is Active"
+msgstr "是否激活"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price____last_update
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__write_uid
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__write_date
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: dms_setting
+#: model:dms.dict.unit,name:dms_setting.dms_dict_unit_7
+msgid "Liter"
+msgstr "升"
+
+#. module: dms_setting
+#: model:dms.dict.order.type,name:dms_setting.dms_dict_order_type_0
+msgid "Maintain"
+msgstr "维修保养"
+
+#. module: dms_setting
+#: model:dms.dict.invoice.type,name:dms_setting.dms_dict_it_7
+msgid "Meeting Invoice"
+msgstr "会晤类"
+
+#. module: dms_setting
+#: model:dms.dict.work.type,name:dms_setting.dms_dict_awt_2
+msgid "Metal Plate"
+msgstr "钣金"
+
+#. module: dms_setting
+#: model:dms.dict.unit,name:dms_setting.dms_dict_unit_1
+msgid "Meter"
+msgstr "仪表"
+
+#. module: dms_setting
+#: model:dms.dict.invoice.type,name:dms_setting.dms_dict_it_1
+msgid "Motor Vehicle Invoice"
+msgstr "机动车发票"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method__name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type__name
+msgid "Name"
+msgstr "名称"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__code
+msgid "Order Code"
+msgstr "订单代码"
+
+#. module: dms_setting
+#: code:addons/dms_setting/models/dictionary.py:65
+#: model:ir.model,name:dms_setting.model_dms_dict_order_type
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__name
+#, python-format
+msgid "Order Type"
+msgstr "订单类别"
+
+#. module: dms_setting
+#: code:addons/dms_setting/models/dictionary.py:66
+#: sql_constraint:dms.dict.order.type:0
+#, python-format
+msgid "Order Type Cannot Be Added Repeatedly"
+msgstr "订单类别不能重复添加"
+
+#. module: dms_setting
+#: model:dms.dict.work.type,name:dms_setting.dms_dict_awt_3
+msgid "Organic Coating"
+msgstr "油漆"
+
+#. module: dms_setting
+#: model:dms.dict.precision,name:dms_setting.dms_dict_ap_1
+msgid "Original Value"
+msgstr "原值"
+
+#. module: dms_setting
+#: model:dms.dict.charge.category,name:dms_setting.dms_dict_cc_3
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_9
+#: model:dms.dict.discount.department,name:dms_setting.dms_dict_discount_department_3
+#: model:dms.dict.discount.type,name:dms_setting.dms_dict_discount_type_4
+msgid "Other"
+msgstr "其他"
+
+#. module: dms_setting
+#: model:dms.dict.compensate.insurance,name:dms_setting.dms_dict_compensate_insurance_1
+msgid "PAIC"
+msgstr ""
+
+#. module: dms_setting
+#: model:dms.dict.compensate.insurance,name:dms_setting.dms_dict_compensate_insurance_0
+msgid "PICC"
+msgstr "中国平安"
+
+#. module: dms_setting
+#: model:dms.dict.unit,name:dms_setting.dms_dict_unit_5
+msgid "Package"
+msgstr "包"
+
+#. module: dms_setting
+#: model:dms.dict.unit,name:dms_setting.dms_dict_unit_3
+msgid "Pint"
+msgstr "品脱"
+
+#. module: dms_setting
+#: model:dms.dict.invoice.type,name:dms_setting.dms_dict_it_3
+msgid "Plain Invoice"
+msgstr "普通发票"
+
+#. module: dms_setting
+#: model:dms.dict.currency,name:dms_setting.dms_dict_currency_3
+#: model:dms.dict.unit,name:dms_setting.dms_dict_unit_4
+msgid "Pound"
+msgstr "磅"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_precision
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision__name
+msgid "Price Precision"
+msgstr "价格精度"
+
+#. module: dms_setting
+#: model:dms.dict.currency,name:dms_setting.dms_dict_currency_1
+msgid "RMB"
+msgstr "人民币"
+
+#. module: dms_setting
+#: model:dms.dict.invoice.type,name:dms_setting.dms_dict_it_5
+msgid "Receipt"
+msgstr "收据"
+
+#. module: dms_setting
+#: model:dms.dict.order.type,name:dms_setting.dms_dict_order_type_1
+msgid "Reservation"
+msgstr "预约单"
+
+#. module: dms_setting
+#: model:dms.dict.discount.department,name:dms_setting.dms_dict_discount_department_1
+msgid "Sale"
+msgstr "销售"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_collection_method__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_invoice_type__sequence
+msgid "Sequence"
+msgstr "序号"
+
+#. module: dms_setting
+#: model:dms.dict.discount.type,name:dms_setting.dms_dict_discount_type_2
+msgid "Service Activity"
+msgstr "服务活动"
+
+#. module: dms_setting
+#: model:dms.dict.invoice.type,name:dms_setting.dms_dict_it_4
+msgid "Service Invoice"
+msgstr "服务发票"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_charge_category__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_compensate_insurance__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_currency__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_customer_type__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_department__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_discount_type__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_order_type__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_precision__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__sequence
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type__sequence
+msgid "Sort"
+msgstr "排序"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_tax_rate
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_tax_rate__name
+msgid "Tax Rate"
+msgstr "税率"
+
+#. module: dms_setting
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__name
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_hours_price__value
+#: model:ir.model.fields,field_description:dms_setting.field_res_company__time_unit_price
+#: model:ir.model.fields,field_description:dms_setting.field_res_config_settings__time_unit_price
+#: model_terms:ir.ui.view,arch_db:dms_setting.res_dms_config_settings_view_form
+msgid "Time Price Unit"
+msgstr "工时单价"
+
+#. module: dms_setting
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_8
+msgid "Transfer Accounts"
+msgstr "转账"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_unit
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_unit__name
+msgid "Unit"
+msgstr "单价"
+
+#. module: dms_setting
+#: model:dms.dict.invoice.type,name:dms_setting.dms_dict_it_2
+msgid "Value Added Tax Invoice"
+msgstr "增值税发票"
+
+#. module: dms_setting
+#: model:dms.dict.collection.method,name:dms_setting.dms_dict_cm_4
+msgid "WeChat"
+msgstr "微信"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_work_type
+#: model:ir.model.fields,field_description:dms_setting.field_dms_dict_work_type__name
+msgid "Work Type"
+msgstr "订单类别"
+
+#. module: dms_setting
+#: model:ir.model,name:dms_setting.model_dms_dict_work_hours_price
+msgid "Working Hours Price"
+msgstr "工时单价"
+
+#. module: dms_setting
+#: model:dms.dict.precision,name:dms_setting.dms_dict_ap_2
+msgid "Yuan"
+msgstr "元"
+

@@ -1,0 +1,132 @@
+.o_list_view {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.o_list_view .o_list_number {
+  text-align: center;
+}
+
+.table th, .table td {
+  border: 1px solid #dee2e6;
+}
+
+.o_form_view .o_form_sheet_bg > .o_form_sheet {
+  max-width: 1500px;
+}
+
+
+.o_required_modifier.o_input, .o_required_modifier .o_input {
+  background: none !important;
+}
+
+.o_form_label.o_required_modifier:before {
+  content: ' *';
+  color: red;
+  font-size: 15px;
+}
+
+/*.o_control_panel > .breadcrumb,
+.o_control_panel > .o_cp_searchview {
+  width: 100%;
+  padding: 10px 0;
+}*/
+
+.o_control_panel > .sco_search_view {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sco_search_item > .sco_search_input {
+  margin-left: 5px;
+}
+
+.sco_search_item {
+  padding: 5px;
+}
+
+/*.o_form_view.o_form_nosheet{
+  display:flex;
+}*/
+.z-tree > .ui-autocomplete {
+  position: absolute;
+  width: 100%;
+  top: 25px;
+  max-height: 300px;
+  overflow: scroll;
+}
+
+.o_field_widget.o_field_many2one .o_external_button {
+  color: $o-community-color;
+  background: none;
+}
+
+.o_view_controller .ztree {
+  border: none;
+  width: 300px;
+}
+
+.table thead th {
+  text-align: center !important;
+  word-wrap: break-word;
+  padding: 10px 4px;
+}
+
+.o_form_view .o_group.o_inner_group > tbody > tr > td.o_td_label {
+  padding: 0 4px 10px 0;
+}
+
+.o_form_view .o_group .o_td_label + td {
+  padding: 2px 36px 2px 4px;
+}
+
+.o_list_view .o_column_sortable:not(:empty)::after {
+  margin-left: 0;
+}
+
+.o_list_view .o_column_sortable::after {
+  display: none;
+}
+
+.o_field_widget.o_readonly_modifier {
+  width: 100% !important;
+  background: $o-label-readonly-background;
+  border-radius: 3px;
+  padding: 2px 4px;
+  min-height: 24px;
+  border: 1px solid $o-label-readonly-border;
+}
+
+.custom-control {
+  padding-left: 1.7rem;
+}
+
+html .o_web_client > .o_main .o_main_content .o_content > .o_view_controller {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center
+}
+
+.o_data_cell {
+  min-width: 100px;
+}
+
+.o_field_many2one {
+  height: 21px;
+}
+
+.o_form_view.o_form_nosheet {
+  width: 100%;
+}
+
+.custom-checkbox.o_readonly_modifier {
+  width: auto !important;
+  background: none;
+  border: none;
+  .custom-control-label::before,
+  .custom-control-label::after{
+    left: 0 !important;
+  }
+}

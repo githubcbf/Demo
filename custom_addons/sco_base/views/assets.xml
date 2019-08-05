@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="assets_backend" name="SCO Base Assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/sco_base/static/src/scss/navbar.scss"/>
+            <link rel="stylesheet" href="/sco_base/static/src/scss/main.scss"/>
+            <link rel="stylesheet" href="/sco_base/static/src/scss/zTreeStyle.css"/>
+            <script type="text/javascript" src="/sco_base/static/src/js/sco_relational_fields.js"/>
+            <script type="text/javascript" src="/sco_base/static/src/js/user_menu.js"/>
+            <script type="text/javascript" src="/sco_base/static/src/js/sco_form.js"/>
+            <script type="text/javascript" src="/sco_base/static/src/js/sco_tools.js"/>
+            <script type="text/javascript" src="/sco_base/static/src/js/sco_view_dialog.js"/>
+            <script type="text/javascript" src="/sco_base/static/src/js/sco_list.js"/>
+            <script type="text/javascript" src="/sco_base/static/src/js/sco_web_client.js"/>
+        </xpath>
+    </template>
+    <template id="assets_backend_variables" name="SCO Base Assets" inherit_id="web._assets_primary_variables">
+        <xpath expr="link[last()]" position="after">
+            <link rel="stylesheet" href="/sco_base/static/src/scss/sco_primary_variable.scss"/>
+        </xpath>
+    </template>
+    <template id="MYSITE_layout" inherit_id="web.layout" name="MYSITE layout" priority="17">
+        <xpath expr="//head//link" position="replace">
+            <link rel="shortcut icon" href="/sco_base/static/images/favicon.ico" type="image/x-icon"/>
+        </xpath>
+    </template>
+</odoo>

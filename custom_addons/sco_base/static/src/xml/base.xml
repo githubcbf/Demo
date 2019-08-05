@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<template id="sco_template">
+
+
+    <!--多对多checkbox-->
+    <t t-name="SCOFieldMany2ManyCheckBoxes">
+        <div aria-atomic="true" class="d-flex flex-wrap">
+            <div t-foreach="widget.m2mValues" t-as="m2m_value" class="d-inline mr-5">
+                <t t-set="id_for_label" t-value="'o_many2many_checkbox_' + _.uniqueId()"/>
+                <div class="custom-control custom-checkbox d-inline">
+                    <input type="checkbox" t-att-id="id_for_label" class="custom-control-input"
+                           t-att-data-record-id="JSON.stringify(m2m_value[0])"/>
+                    <label t-att-for="id_for_label" class="custom-control-label o_form_label">
+                        <t t-esc="m2m_value[1]"/>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </t>
+
+</template>

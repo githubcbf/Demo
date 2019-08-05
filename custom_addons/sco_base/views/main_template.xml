@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template
+            id="mors_main_layout"
+            inherit_id="web.layout"
+            name="Main Layout"
+    >
+        <xpath expr="//title" position="replace">
+            <!--<title t-esc="title or 'SCO System'"/>-->
+            <title t-esc="title or 'DMS'"/>
+        </xpath>
+    </template>
+</odoo>

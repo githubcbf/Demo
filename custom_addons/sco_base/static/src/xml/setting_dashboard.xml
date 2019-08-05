@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates>
+
+    <!--设置页面 已安装apps-->
+    <t t-extend="DashboardApps">
+        <t t-jquery="div:first" t-operation="replace">
+            <!--<div class="text-center o_web_settings_dashboard_apps">-->
+            <!--<i class="fa fa-cog fa-4x text-muted o_browse_apps" style="cursor: pointer;" role="img"-->
+            <!--aria-label="Browse Apps" title="Browse Apps"></i>-->
+            <!--<div class="o_web_settings_dashboard_header">-->
+            <!--<t t-set="installed_apps" t-value="widget.data.installed_apps"/>-->
+            <!--<t t-if="installed_apps">-->
+            <!--<t t-esc="installed_apps"></t>-->
+            <!--<t t-if="installed_apps == 1">Installed App</t>-->
+            <!--<t t-if="installed_apps > 1">Installed Apps</t>-->
+            <!--</t>-->
+            <!--<t t-if="! installed_apps">-->
+            <!--No app installed-->
+            <!--</t>-->
+            <!--</div>-->
+            <!--<div>-->
+            <!--<a href="#" class="btn btn-primary btn-block o_browse_apps" role="button">-->
+            <!--<strong>Browse Apps</strong>-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--</div>-->
+        </t>
+    </t>
+
+    <t t-extend="DashboardInvitations">
+        <t t-jquery="div:first" t-operation="replace">
+        </t>
+    </t>
+
+    <!--设置界面  分享板块-->
+    <t t-extend="DashboardShare">
+        <t t-jquery="div:first" t-operation="replace">
+            <div class="text-center mt8">
+                <a t-if="debug != true" class="oe_activate_debug_mode float-right" href="?debug">Activate the developer
+                    mode
+                </a>
+                <br t-if="debug != true"/>
+                <a t-if="debug != 'assets'" class="oe_activate_debug_mode float-right" href="?debug=assets">Activate the
+                    developer mode (with assets)
+                </a>
+                <br t-if="debug != 'assets'"/>
+                <a t-if="debug != false" class="oe_activate_debug_mode float-right" href="/web">Deactivate the developer
+                    mode
+                </a>
+                <br t-if="debug != false"/>
+                <a t-if="(debug) and !(demo_active)"
+                   class="oe_activate_debug_mode float-right o_web_settings_dashboard_force_demo" href="#">Load demo
+                    data
+                </a>
+            </div>
+        </t>
+    </t>
+
+</templates>
